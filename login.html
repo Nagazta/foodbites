@@ -799,9 +799,7 @@
       checkExistingLogin() {
         if (this.currentUser) {
           this.showSuccessMessage(`Welcome back, ${this.currentUser.name}!`);
-          setTimeout(() => {
-            window.location.href = 'index.html';
-          }, 2000);
+          
         }
       }
 
