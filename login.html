@@ -796,13 +796,6 @@
         });
       }
 
-      checkExistingLogin() {
-        if (this.currentUser) {
-          this.showSuccessMessage(`Welcome back, ${this.currentUser.name}!`);
-          
-        }
-      }
-
       async handleLogin(e) {
         e.preventDefault();
         
